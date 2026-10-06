@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Notes</title>
+    <script>
+      // Apply saved theme before first paint to avoid a flash on reload.
+      try {
+        var t = JSON.parse(localStorage.getItem("theme"));
+        if (t === "dark" || t === "light") document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
+    <script type="module" crossorigin src="/assets/index-BwGbI0W7.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CvI6CWc4.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
